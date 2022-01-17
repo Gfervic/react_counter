@@ -8,6 +8,7 @@ const SecondsCounter = (props) => {
 			<div className="calendar" id="calender">
 				<i className="far fa-clock"></i>
 			</div>
+			{/* We pass the the digits to the DOM and we get the last position of the number with % 10  */}
 			<div className="six">{props.digitSix % 10}</div>
 			<div className="five">{props.digitFive % 10}</div>
 			<div className="four">{props.digitFour % 10}</div>
